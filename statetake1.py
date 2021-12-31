@@ -138,5 +138,3 @@ if st.sidebar.checkbox('Show ML Models'):
 	st.write('**This diagram shows root mean sq error for all models**')
 	st.bar_chart(df_models['RMSE_Price'])
 
-if st.sidebar.checkbox('Show Raw Data'):
-	df
